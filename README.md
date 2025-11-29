@@ -58,3 +58,75 @@ public class RandoPrint : MonoBehaviour
     }
 }
 RandoPrint.cs…]()```
+
+
+OPGV 2. Forces & collisions 1A
+https://youtu.be/CHa0KOXeKLk
+
+ ```C#  void Update()
+   {
+       double speed = rb.linearVelocity.x;
+
+       //rb.rotation = holycamera.rotation;
+       //FreeLook_Camera.transform.rotation = cammyrotation;
+       // slow rolls
+       if (Input.GetKey(KeyCode.E))
+       {
+           rb.AddForce(XSLOWposSPEED * MoveSpeed * Time.deltaTime, ForceMode.VelocityChange); // X axis positive
+
+
+       }
+       if (Input.GetKey(KeyCode.Q))
+       {
+           rb.AddForce(XSLOWnegSPEED * MoveSpeed * Time.deltaTime, ForceMode.VelocityChange); // X axis negative
+       }
+
+       // counter velocity with opposite key
+       if (speed >= 5)
+       {
+           if (Input.GetKey(KeyCode.A))
+           {
+               rb.linearVelocity = Vector3.zero;
+               counterEffect.Play();
+           }
+       }
+        if (speed <= -5)
+           {
+               if (Input.GetKey(KeyCode.D))
+               {
+                   rb.linearVelocity = Vector3.zero;
+                   counterEffect.Play();
+               }
+           }
+
+           // fast rolls
+           if (Input.GetKeyUp(KeyCode.D) && SHORT_cooldown == false)
+           {
+               rb.AddForce(XposSPEED * MoveSpeed, ForceMode.Impulse); // X axis positive
+               dasheffect.Play();
+               SHORT_cooldown = true;
+               StartCoroutine(ResetSUPERSHORTCooldown());
+           }
+
+           if (Input.GetKeyUp(KeyCode.A) && SHORT_cooldown == false)
+           {
+
+               rb.AddForce(XnegSPEED * MoveSpeed, ForceMode.Impulse); // X axis negative
+               dasheffect.Play();
+               SHORT_cooldown = true;
+               StartCoroutine(ResetSUPERSHORTCooldown());
+           }
+
+           if (Input.GetKeyUp(KeyCode.W) && cooldown == false)
+           {
+               rb.AddForce(YposSPEED * MoveSpeed, ForceMode.Impulse); // Y axis positive
+               upwardseffect.Play();
+           cooldown = true;
+               StartCoroutine(ResetCooldown());
+           }
+           if (Input.GetKeyUp(KeyCode.S))
+           {
+               rb.AddForce(YnegSPEED * MoveSpeed, ForceMode.Impulse); // Y axis negative
+               Debug.Log("launaosfaljkfaflnl");
+           }
+}```
