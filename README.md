@@ -57,14 +57,15 @@ public class RandoPrint : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Q)) PrintAllItems();
     }
 }
-RandoPrint.cs…]() ```
+RandoPrint.cs…]()
+```
 
 
 OPGV 2. Forces & collisions 1A
 https://youtu.be/CHa0KOXeKLk
 
- ```
-C#  void Update()
+ ```C#
+  void Update()
    {
        double speed = rb.linearVelocity.x;
 
