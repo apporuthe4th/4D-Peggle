@@ -9,9 +9,9 @@
 
 OPGV 1. Array 1A
 <img width="2555" height="1058" alt="cess" src="https://github.com/user-attachments/assets/4c6e1b38-6606-4c79-8db9-128b355750b9" />
-```C#
 
-[Uploading using NUnit.Framework.Internal;
+
+```C#
 using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -57,13 +57,14 @@ public class RandoPrint : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Q)) PrintAllItems();
     }
 }
-RandoPrint.cs…]()```
+RandoPrint.cs…]() ```
 
 
 OPGV 2. Forces & collisions 1A
 https://youtu.be/CHa0KOXeKLk
 
- ```C#  void Update()
+ ```
+C#  void Update()
    {
        double speed = rb.linearVelocity.x;
 
