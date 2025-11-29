@@ -63,6 +63,19 @@ RandoPrint.cs…]()
 
 OPGV 2. Forces & collisions 1A
 https://youtu.be/CHa0KOXeKLk
+Reflectie – Week 2
+
+    Wat heb je deze week gemaakt.
+Een movement systeem voor een game & Herhaling van Arrays
+
+    Hoe heb je dit aangepakt.
+Met veel enthuisiasme en frustratie, (procesmatig werken iets zoals dat)
+
+    Waar liep je tegenaan en hoe heb je dat opgelost of wat heb je nodig.
+Ik begon eerst op sites zoals de Unity Handbook & SO/Reddit te zoeken, als dat niet werkte vroeg ik voor hulp bij de docent
+
+    Welke theorie of Unity-onderdelen heb je geleerd of toegepast
+AddForce, Rigidbody, Collider, OnCollisionEnter
 
  ```C#
   void Update()
