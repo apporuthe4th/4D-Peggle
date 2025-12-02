@@ -76,7 +76,8 @@ Ik begon eerst op sites zoals de Unity Handbook & SO/Reddit te zoeken, als dat n
 
     Welke theorie of Unity-onderdelen heb je geleerd of toegepast
 AddForce, Rigidbody, Collider, OnCollisionEnter
-
+![ABOING](https://github.com/user-attachments/assets/01506616-a51b-456b-8d66-fbda5b6ac916)
+&ook OP2 scripts
  ```C#
   void Update()
    {
