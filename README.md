@@ -1,11 +1,27 @@
 # 4D-Peggle
-
+#LevelSchets
 4D Multiversal TimeTravel Peggle
     Roguelike
      (TimeStop 10s in past checkpoints 1s each, SaveScum, Adding Bumpers&Other items into the run, More Fails, More stops, )
          Energy Bar which increases with each failed run (The More You Die The Less Score You Get)
          
          [it drains with each timestop or slowed down time or placed bumpers]
+Gameplaykern;
+    1. Een ronde bal
+    2. bewegende zwevende objecten of kannonen die de plaer targetten
+    3. Je verliest punten met elk object dat je neer zet & verliest ook score als je dood gaat maar,            je krijgt meer energie om objecten & abilities te gebruiken des te meer je dood gaat 
+    4. Eenmaal als je alle pickups pakt of als je de finish haalt
+    5. Als je te lang stil staat ga je dood of als je geraakt wordt door een van de vijanden
+    6. Je kan in 8 plekken kiezen waar je de bal vandaan wilt schieten
+Stijl & Sfeer;
+    choatisch
+Structuur van het level;
+BovenAan [Veld met targets & vijanden]
+Midden [Schietplek]
+Onderaan [Veld met targets & vijanden]
+<img width="1920" height="1080" alt="levelschets" src="https://github.com/user-attachments/assets/652d18e1-4ab9-43bd-829c-ab2ac57c2c27" />
+
+
 
 
 OPGV 1. Array 1A
