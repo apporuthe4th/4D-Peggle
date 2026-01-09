@@ -165,3 +165,9 @@ AddForce, Rigidbody, Collider, OnCollisionEnter
                Debug.Log("launaosfaljkfaflnl");
            }
 }```
+
+
+#2.2 Mikken, Shieten en Line Renderer
+![Animation](https://github.com/user-attachments/assets/5962a212-9c9f-4b79-9ddb-e7660c0e899a)
+
+
