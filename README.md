@@ -164,7 +164,8 @@ AddForce, Rigidbody, Collider, OnCollisionEnter
                rb.AddForce(YnegSPEED * MoveSpeed, ForceMode.Impulse); // Y axis negative
                Debug.Log("launaosfaljkfaflnl");
            }
-}```
+}
+ ```
 
 
 #2.2 Mikken, Shieten en Line Renderer
