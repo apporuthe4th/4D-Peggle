@@ -29,7 +29,7 @@ Onderaan [Veld met targets & vijanden]
 OPGV 1. Array 1A
 <img width="2555" height="1058" alt="cess" src="https://github.com/user-attachments/assets/4c6e1b38-6606-4c79-8db9-128b355750b9" />
 
-
+`
 ```C#
 using System;
 using UnityEngine;
@@ -168,7 +168,14 @@ AddForce, Rigidbody, Collider, OnCollisionEnter
  ```
 
 
+
+
+
+
+
+
 #2.2 Mikken, Shieten en Line Renderer
 ![Animation](https://github.com/user-attachments/assets/5962a212-9c9f-4b79-9ddb-e7660c0e899a)
 
-
+#3.2: Bumpers en Combo System
+![3 2](https://github.com/user-attachments/assets/7f12143e-f83a-40b9-a813-d814327f77fe)
