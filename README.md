@@ -174,12 +174,16 @@ AddForce, Rigidbody, Collider, OnCollisionEnter
 
 
 
-#2.2 Mikken, Shieten en Line Renderer
+# 2.2 Mikken, Shieten en Line Renderer
 ![Animation](https://github.com/user-attachments/assets/5962a212-9c9f-4b79-9ddb-e7660c0e899a)
 
-#3.2: Bumpers en Combo System
+# 3.2: Bumpers en Combo System
 ![3 2](https://github.com/user-attachments/assets/7f12143e-f83a-40b9-a813-d814327f77fe)
-#3.1 Score & Triggers 
+
+
+
+
+# 3.1 Score & Triggers 
 ![3 2](https://github.com/user-attachments/assets/7f12143e-f83a-40b9-a813-d814327f77fe)
 ``` C# 
 using Unity.VisualScripting;
