@@ -184,6 +184,7 @@ AddForce, Rigidbody, Collider, OnCollisionEnter
 
 
 # 3.1 Score & Triggers 
+3.2 gif heeft ook score
 ![3 2](https://github.com/user-attachments/assets/7f12143e-f83a-40b9-a813-d814327f77fe)
 ``` C# 
 using Unity.VisualScripting;
