@@ -227,3 +227,8 @@ public class Score : MonoBehaviour
 // }
 
 ```
+
+#4.1: Level design & UI Opdracht
+geluidverdiept elke keer als het bumper raakt
+![ashshhsa](https://github.com/user-attachments/assets/2145218f-bbb1-41e2-acc4-08a20ebffa92)
+
