@@ -232,3 +232,9 @@ public class Score : MonoBehaviour
 geluidverdiept elke keer als het bumper raakt
 ![ashshhsa](https://github.com/user-attachments/assets/2145218f-bbb1-41e2-acc4-08a20ebffa92)
 
+
+#5.2 Peggle Game, Particles, Sounds & Shakes
+![americaaaa](https://github.com/user-attachments/assets/f0050371-284f-4a42-afdd-441bba0dca3c)
+
+
+
