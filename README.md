@@ -238,7 +238,8 @@ geluidverdiept elke keer als het bumper raakt
 
 
 6.1 Custom featrures&Release
-
+I added placement of blocks
+![customfeature2](https://github.com/user-attachments/assets/ac2741c9-025f-4f1e-a22f-2d92a051ceea)
 
 
 
